@@ -1,14 +1,14 @@
 App.Events = (function(lng, undefined) {
 
     
-    lng.dom('#schedule li').tap(function(event) {
-        //var current_todo = lng.Data.Cache.get('current_todo');
-        
-        var todo_id = lng.dom(this).attr('data-talk-id');
-        App.View.view_talk(todo_id);
-        //App.Data.doneTodo(current_todo.id);
-        //App.View.returnToMain('ToDo done', 'check');
-    });
+    //~ lng.dom('#schedule li').tap(function(event) {
+        //~ //var current_todo = lng.Data.Cache.get('current_todo');
+        //~ 
+        //~ var todo_id = lng.dom(this).attr('data-talk-id');
+        //~ App.View.view_talk(todo_id);
+        //~ //App.Data.doneTodo(current_todo.id);
+        //~ //App.View.returnToMain('ToDo done', 'check');
+    //~ });
     
     lng.dom('#refresh').tap(function(event) {
         var url = 'app/data_event.js';

@@ -26,35 +26,40 @@
     
     <section id="program">
         <header data-title="¡La vamos a liar parda!">
+<!--
             <a href="#" data-target="aside" data-icon="items" class="button"></a>
+-->
+<!--
             <nav class="onright">
                 <a href="#" id="refresh" data-icon="refresh"></a>
             </nav>
+-->
         </header>
 
         <footer class="toolbar">
             <nav>
-                <a href="#schedule" data-target="article" data-icon="calendar" data-title="¡La vamos a liar parda!">Agenda</a>
-                <a href="#talks-list" data-target="article" data-icon="group" data-title="Charlas">Charlas</a> 
+                <a href="#schedule" data-target="section" data-icon="calendar" data-title="Agenda Track 1">Agenda</a>
                 <a href="#location" data-target="article" data-icon="map" data-title="¿Cómo llegar!">Cómo llegar</a>
+                <a href="#sponsors" data-target="article" data-icon="star" data-title="Patrocinadores">Patrocinadores</a> 
                 <a href="#credits" data-target="article" data-icon="info" data-title="Créditos">Créditos</a>
             </nav>
         </footer>
 
+<!--
         <aside>
-            <a href="#schedule" class="current" data-target="article" data-icon="calendar" data-title="¡La vamos a liar parda!">Agenda</a>
+            <a href="#schedule" data-target="section" data-icon="calendar" data-title="Agenda Track 1">Agenda</a>
             <a href="#talks-list" data-target="article" data-icon="group" data-title="Charlas">Charlas</a> 
             <a href="#sponsors" data-target="article" data-icon="star" data-title="Organizadores de eventos">Patrocinadores</a>
             <a href="#location" data-target="article" data-icon="map" data-title="¿Cómo llegar?">Cómo llegar</a>
             <a href="#credits" data-target="article" data-icon="info" data-title="Créditos">Créditos</a>
             
         </aside>
+-->
 
-        <article id="splash" class="list scrollable">
+        <article id="splash" class="list scrollable" style="background-color: #9bc7d4;">
             <div style="
                     width: 100%;
                     height: 100%;
-                    background-color: #9bc7d4;
                     text-align: center;
                     vertical-align: text-top;
                     padding-top: 20px;
@@ -64,296 +69,7 @@
             
         
         </article>
-        
-        <article id="schedule" class="list scrollable">
-            <ul>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                        <div class="onright bubble red" data-icon="clock">9.30-10.15</div>
-                        Creando Web Apps con express.js, zombie.js y knockout.js
-                        <small>ES, ADVANCED, JAVASCRIPT</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">10.30-11.15</div>
-                    From Dev to DevOps
-                    <small>ES, BEGINNER, DEVOPS</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">11.15-11.45</div>
-                    HTML5: Cómo será la web del futuro
-                    <small>ES, BEGINNER, HTML5</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble green" data-icon="clock">12.45-13.30</div>
-                    TBD
-                    <small>ES, BEGINNER, CODEMOTION</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble blue" data-icon="clock">15-15.45</div>
-                    TBD
-                    <small>ES, BEGINNER, CODEMOTION</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble blue" data-icon="clock">16-16.45</div>
-                    APIs REST usables
-                    <small>ES, INTERMEDIATE, RUBY</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble green" data-icon="clock">17.15-18</div>
-                    TBD
-                    <small>ES, BEGINNER, CODEMOTION</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble green" data-icon="clock">18.15-19</div>
-                    TBD
-                    <small>ES, BEGINNER, CODEMOTION</small>
-                </li>
-                
-                
-                
-                <!-- TRACK 2 -->
-                <li class="tip dark">Track 2:</li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">9.30-10.15</div>
-                    TBD
-                    <small>ES, BEGINNER, CODEMOTION</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">10.30-11.15</div>
-                    Tuenti release workflow
-                    <small>ES, ADVANCED, AGILE/DEVOPS</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">11.45-12.30</div>
-                    Firmando digitalmente con tu DNIe
-                    <small>ES, ADVANCED, JAVA</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">12.45-13.30</div>
-                    TBD
-                    <small>ES, BEGINNER, CODEMOTION</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble blue" data-icon="clock">15-15.45</div>
-                    Sácale el máximo partido al Web Inspector
-                    <small>ES, BEGINNER, GTUG</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble blue" data-icon="clock">16-16.45</div>
-                    Integrando Sistemas reales con REST, JMS, Protobuf y MongoDB
-                    <small>ES, ADVANCED, JAVA</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble green" data-icon="clock">17.15-18</div>
-                    Groovy para programadores Java
-                    <small>ES, BEGINNER, JAVA</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble green" data-icon="clock">18.15-19</div>
-                    Construyendo un ecosistema para desarrolladores
-                    <small>ES, INTERMEDIATE, AWESÓMICO</small>
-                </li>
-                
-                
-                
-                <!-- TRACK 3 -->
-                <li class="tip dark">Track 3:</li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">9.30-10.15</div>
-                    Los Lenguajes de la JVM
-                    <small>ES, BEGINNER, JAVA</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">10.30-11.15</div>
-                    TBD
-                    <small>ES, BEGINNER, CODEMOTION</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">11.45-12.30</div>
-                    Desarrollo con Guice, Jersey y AppEngine
-                    <small>ES, INTERMEDIATE, GTUG</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">12.45-13.30</div>
-                    Theming en Drupal
-                    <small>ES, BEGINNER, PHP</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble blue" data-icon="clock">15-15.45</div>
-                    Effective Java
-                    <small>ES, INTERMEDIATE, JAVA</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble blue" data-icon="clock">16-16.45</div>
-                    TBD
-                    <small>ES, BEGINNER, CODEMOTION</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble green" data-icon="clock">17.15-18</div>
-                    Our Role in a software based civilization
-                    <small>EN, BEGINNER, RUBY</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble green" data-icon="clock">18.15-19</div>
-                    Alternativas para desarrollar en la nube
-                    <small>ES, BEGINNER, CLOUD</small>
-                </li>
-                
-                
-                <!-- TRACK 4 -->
-                <li class="tip dark">Track 4:</li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">9.30-10.15</div>
-                    Desarrollo iPhone
-                    <small>ES, BEGINNER, MOBILE</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">10.30-11.15</div>
-                    jQuery mobile for dummies
-                    <small>ES, BEGINNER, HTML5/JAVASCRIPT</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">11.45-12.30</div>
-                    Cliente twitter en 45 minutos
-                    <small>ES, BEGINNER, NSCODERS</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">12.45-13.30</div>
-                    Monetización de Aplicaciones móviles
-                    <small>ES, BEGINNER, MOBILE</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble blue" data-icon="clock">15-15.45</div>
-                    Introducción al desarrollo Windows Phone 7
-                    <small>ES, BEGINNER, MOBILE</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble blue" data-icon="clock">16-16.45</div>
-                    ¡Mira mamá! ¡Sin cables!
-                    <small>ES, INTERMEDIATE, MOBILE</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble green" data-icon="clock">17.15-18</div>
-                    ¿Por qué metodologías ágiles?
-                    <small>ES, BEGINNER, AGILE</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble green" data-icon="clock">18.15-19</div>
-                    TDD e integración continua para Android
-                    <small>ES, INTERMEDIATE, AGILE/MOBILE</small>
-                </li>
-                
-                
-                <!-- TRACK 5 -->
-                <li class="tip dark">Track 5:</li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">9.30-10.15</div>
-                    Metaprogramación Ruby
-                    <small>ES, INTERMEDIATE, RUBY</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">10.30-11.15</div>
-                    Computación paralela en plataforma Windows
-                    <small>ES, ADVANCED, .NET</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">11.45-12.30</div>
-                    Template animation & OO CSS: Be nice to your Web Designer
-                    <small>ES, BEGINNER, JAVASCRIPT</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">12.45-13.30</div>
-                    Web Scraping
-                    <small>ES, INTERMEDIATE, PYTHON</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble blue" data-icon="clock">15-15.45</div>
-                    Introducción a WebRTC
-                    <small>ES, ADVANCED, HTML5</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble blue" data-icon="clock">16-16.45</div>
-                    Automatiación de Unit Testing
-                    <small>ES, INTERMEDIATE, JAVASCRIPT</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble green" data-icon="clock">17.15-18</div>
-                    Symfony2 y su ecosistema
-                    <small>ES, ADVANCED, PHP</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble green" data-icon="clock">18.15-19</div>
-                    Mobile HTML5
-                    <small>ES, ADVANCED, HTML5</small>
-                </li>
-                
-                
-                
-                <!-- TRACK 6 -->
-                <li class="tip dark">Track 6:</li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">9.30-10.15</div>
-                    Colaboración en las nubes: Sharepoint y Azure
-                    <small>ES, INTERMEDIATE, CLOUD</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">10.30-11.15</div>
-                    Despegando con Grails y desplegando en la nube
-                    <small>ES, BEGINNER, CLOUD</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">11.45-12.30</div>
-                    OpenStack Nova APIs
-                    <small>ES, ADVANCED, PYTHON</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble red" data-icon="clock">12.45-13.30</div>
-                    Desarrollo de aplicaciones Web con Google Web Tookit
-                    <small>ES, INTERMEDIATE, GTUG</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble blue" data-icon="clock">15-15.45</div>
-                    REST Fácil con Groovy & Grails
-                    <small>ES, INTERMEDIATE, GROOVY</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble blue" data-icon="clock">16-16.45</div>
-                    Windows Azure con tecnologías no Microsoft
-                    <small>ES, BEGINNER, CLOUD</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble green" data-icon="clock">17.15-18</div>
-                    CouchDB y la computación distribuida voluntaria
-                    <small>ES, INTERMEDIATE, JAVASCRIPT</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                    <div class="onright bubble green" data-icon="clock">18.15-19</div>
-                    Carga automática de constantes en Ruby on Rails
-                    <small>ES, ADVANCED, RUBY</small>
-                </li>
-            </ul>
-        </article>
-        <article id="talks-list" class="list">
-            <ul>
-                <li data-image="http://codemotion.es/img/t3.jpg">
-                
-                    <div class="onright bubble red" data-icon="clock">16-16.45</div>
-                    Windows Azure con tecnologías no Microsoft
-                    <small>Ibon Landa, @ibonilm</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t007.jpg">
-                
-                    <div class="onright bubble red" data-icon="clock">17.15-18</div>
-                    ¿Por qué metodologías ágiles?
-                    <small>Jesús Jiménez</small>
-                </li>
-                <li data-image="http://codemotion.es/img/t7.jpg">
-                    <div class="onright bubble red" data-icon="clock">9.30-10.15</div>
-                    Colaboración en las nubes: Sharepoint y Azure
-                    <small>Juan Carlos González y Mario Cortés</small>
-                </li>
-            </ul>
-        </article>
-        
+               
         <article id="sponsors" class="scrollable">
             <div class="indented">
                 <div class="bubble red anchor" >Platinum</div>
@@ -477,12 +193,595 @@ Si vienes de la M-30 tendrás que tomar la salida hacia Conde de Casal, y desde 
         </article>
     </section>
     
+    <section id="schedule">
+        <header data-title="¡La vamos a liar parda!">
+            <a href="#back" data-target="section" data-icon="left" class="button onleft rounded"></a>
+        </header>
+
+        <footer class="toolbar with-labels">
+            <nav>
+                <a href="#track1" class="current" data-target="article" data-icon="target" data-label="Track 1" data-title="Agenda Track 1"><abbr>Track 1</abbr></a>
+                <a href="#track2" data-target="article" data-icon="target" data-label="Track 2" data-title="Agenda Track 2"><abbr>Track 2</abbr></a> 
+                <a href="#track3" data-target="article" data-icon="target" data-label="Track 3" data-title="Agenda Track 3"><abbr>Track 3</abbr></a>
+                <a href="#track4" data-target="article" data-icon="target" data-label="Track 4" data-title="Agenda Track 4"><abbr>Track 4</abbr></a>
+                <a href="#track5" data-target="article" data-icon="target" data-label="Track 5" data-title="Agenda Track 5"><abbr>Track 5</abbr></a>
+                <a href="#track6" data-target="article" data-icon="target" data-label="Track 6" data-title="Agenda Track 6"><abbr>Track 6</abbr></a>
+                <a href="#track7" data-target="article" data-icon="target" data-label="Track 7" data-title="Agenda Track 6"><abbr>Track 7</abbr></a>
+            </nav>
+        </footer>
+        
+        <article id="track1" class="list scrollable">
+            <ul>
+                <li data-image="assets/images/talks/t190.jpg">
+                        <a href="#t190" data-target="section">
+                            <div class="onright bubble red" data-icon="clock">9.30-10.15</div>
+                            Creando Web Apps con express.js, zombie.js y knockout.js
+                            <small>ES, Advanced, Javascript</small>
+                        </a>
+                </li>
+                <li data-image="assets/images/talks/t145.jpg">
+                    <div class="onright bubble red" data-icon="clock">10.30-11.15</div>
+                    From Dev to DevOps
+                    <small>ES, Beginner, DEVOPS</small>
+                </li>
+                <li class="anchor">
+                    <div class="onright bubble red" data-icon="clock">11.15-11.45</div>
+                    Coffee Break
+                </li>
+                <li data-image="assets/images/talks/t1002.jpg">
+                    <div class="onright bubble orange" data-icon="clock">11.45-12.30</div>
+                    The H Hour: Hadoop, the awakening of the BigData I
+                    <small>ES, Advanced, MICROSOFT</small>
+                </li>
+                <li data-image="assets/images/talks/t998.jpg">
+                    <div class="onright bubble orange" data-icon="clock">12.45-13.30</div>
+                    Multi-threaded Performance and Scalability
+                    <small>EN, Advanced, Java</small>
+                </li>
+                <li class="anchor">
+                    Lunch
+                </li>
+                <li data-image="assets/images/talks/t153.jpg">
+                    <div class="onright bubble blue" data-icon="clock">15-15.45</div>
+                    Los Lenguajes de la JVM
+                    <small>ES, Beginner, Java</small>
+                </li>
+                <li data-image="assets/images/talks/t1000.jpg">
+                    <div class="onright bubble blue" data-icon="clock">16-16.45</div>
+                    JAX-RS 2.0: RESTful Web services on steroids
+                    <small>EN, Intermediate, Java, ORACLE</small>
+                </li>
+                <li class="anchor middle">
+                    Coffee break
+                </li>
+                <li data-image="assets/images/talks/t993.jpg">
+                    <div class="onright bubble green" data-icon="clock">17.15-18</div>
+                    Agile at Enterprise Scale: Lessons for Successful Agile Software Delivery 
+                    <small>EN, Advanced, AGILE</small>
+                </li>
+                <li data-image="assets/images/talks/XXXX.jpg">
+                    <div class="onright bubble green" data-icon="clock">18.15-19</div>
+                    TBD
+                    <small>ES, Beginner, CODEMOTION</small>
+                </li>
+            </ul>
+        </article>    
+            
+         <article id="track2" class="list scrollable">   
+            <ul>
+                <!-- TRACK 2 -->
+                <li data-image="assets/images/talks/t991.jpg">
+                    <div class="onright bubble red" data-icon="clock">9.30-10.15</div>
+                    Aplicaciones Nativas con HTML5 y Javascript en Windows 8
+                    <small>ES, Intermediate, Microsoft</small>
+                </li>
+                <li data-image="assets/images/talks/t72.jpg">
+                    <div class="onright bubble red" data-icon="clock">10.30-11.15</div>
+                    Firmando digitalmente con tu DNIe
+                    <small>ES, Advanced, Java</small>
+                </li>
+                <li class="anchor middle">
+                    Coffee break
+                </li>
+                <li data-image="assets/images/talks/t999.jpg">
+                    <div class="onright bubble orange" data-icon="clock">11.45-12.30</div>
+                    HTML5 o cómo será la web del futuro
+                    <small>ES, Beginner, HTML5</small>
+                </li>
+                <li data-image="assets/images/talks/t992.jpg">
+                    <div class="onright bubble orange" data-icon="clock">12.45-13.30</div>
+                    Single Page Application con Backbone
+                    <small>ES, Intermediate, Javascript, Medianet</small>
+                </li>
+                <li class="anchor">
+                    Lunch
+                </li>
+                <li data-image="assets/images/talks/t996.jpg">
+                    <div class="onright bubble blue" data-icon="clock">15-15.45</div>
+                    Integrando Sistemas reales con REST, JMS, Protobuf y MongoDB
+                    <small>ES, Advanced, Java</small>
+                </li>
+                <li data-image="assets/images/talks/t52.jpg">
+                    <div class="onright bubble blue" data-icon="clock">16-16.45</div>
+                    Sácale el máximo partido al Web Inspector
+                    <small>ES, Beginner, GTUG</small>
+                </li>
+                <li class="anchor">
+                    Coffee break
+                </li>
+                <li data-image="assets/images/talks/t995.jpg">
+                    <div class="onright bubble green" data-icon="clock">17.15-18</div>
+                    Groovy para programadores Java
+                    <small>ES, Beginner, Java</small>
+                </li>
+                <li data-image="assets/images/talks/t229.jpg">
+                    <div class="onright bubble green" data-icon="clock">18.15-19</div>
+                    Construyendo un ecosistema para desarrolladores
+                    <small>ES, Intermediate, Awesómico</small>
+                </li>
+            </ul>
+        </article>   
+            
+        <article id="track3" class="list scrollable">
+            <ul>
+                <!-- TRACK 3 -->
+                <li data-image="assets/images/talks/t115.jpg">
+                    <div class="onright bubble red" data-icon="clock">9.30-10.15</div>
+                    Tuenti release workflow
+                    <small>ES, Advanced, Agile/Devops</small>
+                </li>
+                <li data-image="assets/images/talks/t997.jpg">
+                    <div class="onright bubble red" data-icon="clock">10.30-11.15</div>
+                    The Java EE 7 Platform: Developing for the Cloud
+                    <small>EN, Intermediate, Cloud</small>
+                </li>
+                <li class="anchor">
+                    Coffee break
+                </li>
+                <li data-image="assets/images/talks/t174.jpg">
+                    <div class="onright bubble orange" data-icon="clock">11.45-12.30</div>
+                    Desarrollo con Guice, Jersey y AppEngine
+                    <small>ES, Advanced, GTUG</small>
+                </li>
+                <li data-image="assets/images/talks/t119.jpg">
+                    <div class="onright bubble orange" data-icon="clock">12.45-13.30</div>
+                    Theming en Drupal
+                    <small>ES, Beginner, PHP</small>
+                </li>
+                <li class="anchor">
+                    Launch
+                </li>
+                <li data-image="assets/images/talks/t93.jpg">
+                    <div class="onright bubble blue" data-icon="clock">15-15.45</div>
+                    Effective Java
+                    <small>ES, Intermediate, Java</small>
+                </li>
+                <li data-image="assets/images/talks/t21.jpg">
+                    <div class="onright bubble blue" data-icon="clock">16-16.45</div>
+                    APIs REST usables
+                    <small>ES, Intermediate, Ruby</small>
+                </li>
+                <li class="anchor">
+                    Coffee break
+                </li>
+                <li data-image="assets/images/talks/t219.jpg">
+                    <div class="onright bubble green" data-icon="clock">17.15-18</div>
+                    Our Role in a software based civilization
+                    <small>EN, Beginner, Ruby</small>
+                </li>
+                <li data-image="assets/images/talks/t57.jpg">
+                    <div class="onright bubble green" data-icon="clock">18.15-19</div>
+                    Calidad de software y patrones de diseño en Windows Phone 7.5
+                    <small>ES, Intermediate, Mobile</small>
+                </li>
+            </ul>
+        </article>   
+            
+        <article id="track4" class="list scrollable">
+            <ul>
+                <!-- TRACK 4 -->
+                <li data-image="assets/images/talks/t121.jpg">
+                    <div class="onright bubble red" data-icon="clock">9.30-10.15</div>
+                    Desarrollo iPhone
+                    <small>ES, Beginner, Mobile</small>
+                </li>
+                <li data-image="assets/images/talks/t213.jpg">
+                    <div class="onright bubble red" data-icon="clock">10.30-11.15</div>
+                    jQuery mobile for dummies
+                    <small>ES, Beginner, HTML5/Javascript</small>
+                </li>
+                <li class="anchor">
+                    Coffee break
+                </li>
+                <li data-image="assets/images/talks/t83.jpg">
+                    <div class="onright bubble orange" data-icon="clock">11.45-12.30</div>
+                    Cliente twitter en 45 minutos
+                    <small>ES, Beginner, NSCoders</small>
+                </li>
+                <li data-image="assets/images/talks/t188.jpg">
+                    <div class="onright bubble orange" data-icon="clock">12.45-13.30</div>
+                    Monetización de Aplicaciones móviles
+                    <small>ES, Beginner, Mobile</small>
+                </li>
+                <li class="anchor">
+                    Launch
+                </li>
+                <li data-image="assets/images/talks/t26.jpg">
+                    <div class="onright bubble blue" data-icon="clock">15-15.45</div>
+                    Introducción al desarrollo Windows Phone 7
+                    <small>ES, Beginner, Mobile</small>
+                </li>
+                <li data-image="assets/images/talks/t139.jpg">
+                    <div class="onright bubble blue" data-icon="clock">16-16.45</div>
+                    ¡Mira mamá! ¡Sin cables!
+                    <small>ES, Intermediate, Mobile</small>
+                </li>
+                <li class="anchor">
+                    Coffee break
+                </li>
+                <li data-image="assets/images/talks/t6.jpg">
+                    <div class="onright bubble green" data-icon="clock">17.15-18</div>
+                    ¿Por qué metodologías ágiles?
+                    <small>ES, Beginner, Agile</small>
+                </li>
+                <li data-image="assets/images/talks/t127.jpg">
+                    <div class="onright bubble green" data-icon="clock">18.15-19</div>
+                    TDD y Continuous Integration para aplicaciones Android
+                    <small>ES, Intermediate, Agile/Mobile</small>
+                </li>
+            </ul>
+        </article>   
+            
+        <article id="track5" class="list scrollable">
+            <ul>    
+                <!-- TRACK 5 -->
+                <li data-image="assets/images/talks/t89.jpg">
+                    <div class="onright bubble red" data-icon="clock">9.30-10.15</div>
+                    Metaprogramación Ruby
+                    <small>ES, Intermediate, Ruby</small>
+                </li>
+                <li data-image="assets/images/talks/t74.jpg">
+                    <div class="onright bubble red" data-icon="clock">10.30-11.15</div>
+                    Todo Microsoft Kinect en 45 minutos
+                    <small>ES, Beginner, Microsoft</small>
+                </li>
+                <li class="anchor">
+                    Coffee break
+                </li>
+                <li data-image="assets/images/talks/t44.jpg">
+                    <div class="onright bubble orange" data-icon="clock">11.45-12.30</div>
+                    Template animation & OO CSS: Be nice to your Web Designer
+                    <small>ES, Intermediate, Javascript</small>
+                </li>
+                <li data-image="assets/images/talks/t248.jpg">
+                    <div class="onright bubble orange" data-icon="clock">12.45-13.30</div>
+                    Web Scraping
+                    <small>ES, Intermediate, Python</small>
+                </li>
+                <li class="anchor">
+                    Launch
+                </li>
+                <li data-image="assets/images/talks/t92.jpg">
+                    <div class="onright bubble blue" data-icon="clock">15-15.45</div>
+                    Introducción a WebRTC
+                    <small>ES, Advanced, HTML5</small>
+                </li>
+                <li data-image="assets/images/talks/t34.jpg">
+                    <div class="onright bubble blue" data-icon="clock">16-16.45</div>
+                    Automatiación de Unit Testing
+                    <small>ES, Intermediate, Javascript</small>
+                </li>
+                <li class="anchor">
+                    Coffee break
+                </li>
+                <li data-image="assets/images/talks/t209.jpg">
+                    <div class="onright bubble green" data-icon="clock">17.15-18</div>
+                    Symfony2 y su ecosistema
+                    <small>ES, Advanced, PHP</small>
+                </li>
+                <li data-image="assets/images/talks/t287.jpg">
+                    <div class="onright bubble green" data-icon="clock">18.15-19</div>
+                    Boot2Gecko, la web es la plataforma
+                    <small>ES, Intermediate, HTML5/Mobile</small>
+                </li>
+            </ul>
+        </article>   
+            
+         <article id="track6" class="list scrollable">
+            <ul>     
+                <!-- TRACK 6 -->
+                <li data-image="assets/images/talks/t7.jpg">
+                    <div class="onright bubble red" data-icon="clock">9.30-10.15</div>
+                    Colaboración en las nubes: Sharepoint y Azure
+                    <small>ES, Intermediate, Cloud</small>
+                </li>
+                <li data-image="assets/images/talks/t82.jpg">
+                    <div class="onright bubble red" data-icon="clock">10.30-11.15</div>
+                    Despegando con Grails y desplegando en la nube
+                    <small>ES, Beginner, Cloud</small>
+                </li>
+                <li class="anchor">
+                    Coffee break
+                </li>
+                <li data-image="assets/images/talks/t14.jpg">
+                    <div class="onright bubble orange" data-icon="clock">11.45-12.30</div>
+                    OpenStack Nova APIs
+                    <small>ES, Advanced, Python</small>
+                </li>
+                <li data-image="assets/images/talks/t113.jpg">
+                    <div class="onright bubble orange" data-icon="clock">12.45-13.30</div>
+                    Desarrollo de aplicaciones Web con Google Web Tookit
+                    <small>ES, Intermediate, GTUG</small>
+                </li>
+                <li class="anchor">
+                    Launch
+                </li>
+                <li data-image="assets/images/talks/t237.jpg">
+                    <div class="onright bubble blue" data-icon="clock">15-15.45</div>
+                    REST Fácil con Groovy & Grails
+                    <small>ES, Intermediate, Groovy</small>
+                </li>
+                <li data-image="assets/images/talks/t3.jpg">
+                    <div class="onright bubble blue" data-icon="clock">16-16.45</div>
+                    Windows Azure con tecnologías no Microsoft
+                    <small>ES, Beginner, Cloud</small>
+                </li>
+                <li class="anchor">
+                    Coffee break
+                </li>
+                <li data-image="assets/images/talks/t23.jpg">
+                    <div class="onright bubble green" data-icon="clock">17.15-18</div>
+                    CouchDB y la computación distribuida voluntaria
+                    <small>ES, Intermediate, Javascript</small>
+                </li>
+                <li data-image="assets/images/talks/t76.jpg">
+                    <div class="onright bubble green" data-icon="clock">18.15-19</div>
+                    Carga automática de constantes en Ruby on Rails
+                    <small>ES, Advanced, RUBY</small>
+                </li>
+            </ul>
+        </article>
+        
+        <article id="track7" class="list scrollable">
+            <ul>     
+                <!-- TRACK 7 -->
+                <li data-image="assets/images/talks/t994.jpg">
+                    <div class="onright bubble red" data-icon="clock">9.30-10.15</div>
+                    Diseño para todos, uso por más
+                    <small>ES, Intermediate, Mobile/Accesibilidad</small>
+                </li>
+                <li data-image="assets/images/talks/t186.jpg">
+                    <div class="onright bubble red" data-icon="clock">10.30-11.15</div>
+                    Alternativas para desarrollar en la nube
+                    <small>ES, Beginner, Cloud</small>
+                </li>
+                <li class="anchor">
+                    Coffee break
+                </li>
+                <li data-image="assets/images/talks/t128.jpg">
+                    <div class="onright bubble orange" data-icon="clock">11.45-12.30</div>
+                    Introducción al desarrollo de módulos para Drupal
+                    <small>ES, Advanced, PHP</small>
+                </li>
+                <li data-image="assets/images/talks/t65.jpg">
+                    <div class="onright bubble orange" data-icon="clock">12.45-13.30</div>
+                    Computación paralela en plataforma Windows
+                    <small>ES, Advanced, .NET</small>
+                </li>
+                <li class="anchor">
+                    Launch
+                </li>
+                <li data-image="assets/images/talks/t1001.jpg">
+                    <div class="onright bubble blue" data-icon="clock">15-15.45</div>
+                    Open Video, HTML5, javascript: Jugando con Popcornjs
+                    <small>ES, Advanced, Codemotion</small>
+                </li>
+                <li data-image="assets/images/talks/t133.jpg">
+                    <div class="onright bubble blue" data-icon="clock">16-16.45</div>
+                    La evolución de Python
+                    <small>ES, Intermediate, Python</small>
+                </li>
+                <li class="anchor">
+                    Coffee break
+                </li>
+                <li data-image="assets/images/talks/t30.jpg">
+                    <div class="onright bubble green" data-icon="clock">17.15-18</div>
+                    Reactive extensions: la evolución del lenguaje
+                    <small>ES, Beginner, .NET</small>
+                </li>
+                <li data-image="assets/images/talks/t177.jpg">
+                    <div class="onright bubble green" data-icon="clock">18.15-19</div>
+                    Android prototyping and development with Python
+                    <small>EN/ES, Intermediate, Python/Android</small>
+                </li>
+            </ul>
+        </article>  
+    </section>
     <section id="talks">
         <header data-title="Charlas">
             <a href="#back" data-target="section" data-icon="left" class="button onleft rounded"></a>
         </header>
         
     </section>
+    
+    <section id="t190" class="talk-detail">
+        <header data-title="Track 1: 9:30-10:15">
+            <a href="#back" data-target="section" data-icon="left" class="button onleft rounded"></a>
+        </header>
+        <article id="tt190" class="list scrollable">
+            <div class="indented">
+                <ul>     
+                    <li class="tip dark">Creando Web Apps con express.js, zombie.js y knockout.js</li>
+                    <li><small><span class="bubble magenta">ES</span> <span class="bubble red">Advanced</span> <span class="bubble blue">Javascript</span></small></li>
+                    <li data-image="assets/images/talks/t190.jpg">
+                        Iván Loire
+                        <small>@ivanloire</small>
+                    </li>
+                    <li><div class="span9"><p>El modelo de desarrollo de aplicaciones web ha cambiado en los últimos años.</p><p>Necesitamos aplicaciones web rápidas, escalables y fácilmente testeables (código de cliente y de servidor)</p><p>Express.js nos provee de un framework para producir aplicaciones web absurdamente rápidas (en cuanto a ejecución en el servidor. Usa node.js)</p><p>Knockout.js nos ofrece un mecanismo de vista-modelo para hacer que nuestras aplicaciones pidan al servidor sólamente los datos justos (siempre de manera asíncrona) y podamos enlazar esos datos a nuestra página de una manera muy potente y cómoda.</p><p>Zombie.js nos da un entorno de pruebas ""full-stack"", es decir, podemos testear nuestra aplicación desde la parte de cliente hasta el servidor, como si estuviésemos sentados realizando las pruebas en el navegador.</p><p>¿Juntamos los 3?</p></div></li>                    
+                </ul>
+            </div>
+        </article>
+    </section>
+    
+    <section id="t_XXX" class="talk-detail">
+        <header data-title="Track XXX: XXX-XXX">
+            <a href="#back" data-target="section" data-icon="left" class="button onleft rounded"></a>
+        </header>
+        <article id="tt_XXX" class="list scrollable">
+            <div class="indented">
+                <ul>     
+                    <li class="tip dark">Creando Web Apps con express.js, zombie.js y knockout.js</li>
+                    <li><small><span class="bubble magenta">ES</span> <span class="bubble red">Advanced</span> <span class="bubble blue">Javascript</span></small></li>
+                    <li data-image="assets/images/talks/t190.jpg">
+                        Iván Loire
+                        <small>@ivanloire</small>
+                    </li>
+                    <li><div class="span9"><p>El modelo de desarrollo de aplicaciones web ha cambiado en los últimos años.</p><p>Necesitamos aplicaciones web rápidas, escalables y fácilmente testeables (código de cliente y de servidor)</p><p>Express.js nos provee de un framework para producir aplicaciones web absurdamente rápidas (en cuanto a ejecución en el servidor. Usa node.js)</p><p>Knockout.js nos ofrece un mecanismo de vista-modelo para hacer que nuestras aplicaciones pidan al servidor sólamente los datos justos (siempre de manera asíncrona) y podamos enlazar esos datos a nuestra página de una manera muy potente y cómoda.</p><p>Zombie.js nos da un entorno de pruebas ""full-stack"", es decir, podemos testear nuestra aplicación desde la parte de cliente hasta el servidor, como si estuviésemos sentados realizando las pruebas en el navegador.</p><p>¿Juntamos los 3?</p></div></li>                    
+                </ul>
+            </div>
+        </article>
+    </section>
+    
+    
+    <section id="t_XXX" class="talk-detail">
+        <header data-title="Track XXX: XXX-XXX">
+            <a href="#back" data-target="section" data-icon="left" class="button onleft rounded"></a>
+        </header>
+        <article id="tt_XXX" class="list scrollable">
+            <div class="indented">
+                <ul>     
+                    <li class="tip dark">Creando Web Apps con express.js, zombie.js y knockout.js</li>
+                    <li><small><span class="bubble magenta">ES</span> <span class="bubble red">Advanced</span> <span class="bubble blue">Javascript</span></small></li>
+                    <li data-image="assets/images/talks/t190.jpg">
+                        Iván Loire
+                        <small>@ivanloire</small>
+                    </li>
+                    <li><div class="span9"><p>El modelo de desarrollo de aplicaciones web ha cambiado en los últimos años.</p><p>Necesitamos aplicaciones web rápidas, escalables y fácilmente testeables (código de cliente y de servidor)</p><p>Express.js nos provee de un framework para producir aplicaciones web absurdamente rápidas (en cuanto a ejecución en el servidor. Usa node.js)</p><p>Knockout.js nos ofrece un mecanismo de vista-modelo para hacer que nuestras aplicaciones pidan al servidor sólamente los datos justos (siempre de manera asíncrona) y podamos enlazar esos datos a nuestra página de una manera muy potente y cómoda.</p><p>Zombie.js nos da un entorno de pruebas ""full-stack"", es decir, podemos testear nuestra aplicación desde la parte de cliente hasta el servidor, como si estuviésemos sentados realizando las pruebas en el navegador.</p><p>¿Juntamos los 3?</p></div></li>                    
+                </ul>
+            </div>
+        </article>
+    </section>
+    
+    
+    <section id="t_XXX" class="talk-detail">
+        <header data-title="Track XXX: XXX-XXX">
+            <a href="#back" data-target="section" data-icon="left" class="button onleft rounded"></a>
+        </header>
+        <article id="tt_XXX" class="list scrollable">
+            <div class="indented">
+                <ul>     
+                    <li class="tip dark">Creando Web Apps con express.js, zombie.js y knockout.js</li>
+                    <li><small><span class="bubble magenta">ES</span> <span class="bubble red">Advanced</span> <span class="bubble blue">Javascript</span></small></li>
+                    <li data-image="assets/images/talks/t190.jpg">
+                        Iván Loire
+                        <small>@ivanloire</small>
+                    </li>
+                    <li><div class="span9"><p>El modelo de desarrollo de aplicaciones web ha cambiado en los últimos años.</p><p>Necesitamos aplicaciones web rápidas, escalables y fácilmente testeables (código de cliente y de servidor)</p><p>Express.js nos provee de un framework para producir aplicaciones web absurdamente rápidas (en cuanto a ejecución en el servidor. Usa node.js)</p><p>Knockout.js nos ofrece un mecanismo de vista-modelo para hacer que nuestras aplicaciones pidan al servidor sólamente los datos justos (siempre de manera asíncrona) y podamos enlazar esos datos a nuestra página de una manera muy potente y cómoda.</p><p>Zombie.js nos da un entorno de pruebas ""full-stack"", es decir, podemos testear nuestra aplicación desde la parte de cliente hasta el servidor, como si estuviésemos sentados realizando las pruebas en el navegador.</p><p>¿Juntamos los 3?</p></div></li>                    
+                </ul>
+            </div>
+        </article>
+    </section>
+    
+    
+    <section id="t_XXX" class="talk-detail">
+        <header data-title="Track XXX: XXX-XXX">
+            <a href="#back" data-target="section" data-icon="left" class="button onleft rounded"></a>
+        </header>
+        <article id="tt_XXX" class="list scrollable">
+            <div class="indented">
+                <ul>     
+                    <li class="tip dark">Creando Web Apps con express.js, zombie.js y knockout.js</li>
+                    <li><small><span class="bubble magenta">ES</span> <span class="bubble red">Advanced</span> <span class="bubble blue">Javascript</span></small></li>
+                    <li data-image="assets/images/talks/t190.jpg">
+                        Iván Loire
+                        <small>@ivanloire</small>
+                    </li>
+                    <li><div class="span9"><p>El modelo de desarrollo de aplicaciones web ha cambiado en los últimos años.</p><p>Necesitamos aplicaciones web rápidas, escalables y fácilmente testeables (código de cliente y de servidor)</p><p>Express.js nos provee de un framework para producir aplicaciones web absurdamente rápidas (en cuanto a ejecución en el servidor. Usa node.js)</p><p>Knockout.js nos ofrece un mecanismo de vista-modelo para hacer que nuestras aplicaciones pidan al servidor sólamente los datos justos (siempre de manera asíncrona) y podamos enlazar esos datos a nuestra página de una manera muy potente y cómoda.</p><p>Zombie.js nos da un entorno de pruebas ""full-stack"", es decir, podemos testear nuestra aplicación desde la parte de cliente hasta el servidor, como si estuviésemos sentados realizando las pruebas en el navegador.</p><p>¿Juntamos los 3?</p></div></li>                    
+                </ul>
+            </div>
+        </article>
+    </section>
+    
+    
+    <section id="t_XXX" class="talk-detail">
+        <header data-title="Track XXX: XXX-XXX">
+            <a href="#back" data-target="section" data-icon="left" class="button onleft rounded"></a>
+        </header>
+        <article id="tt_XXX" class="list scrollable">
+            <div class="indented">
+                <ul>     
+                    <li class="tip dark">Creando Web Apps con express.js, zombie.js y knockout.js</li>
+                    <li><small><span class="bubble magenta">ES</span> <span class="bubble red">Advanced</span> <span class="bubble blue">Javascript</span></small></li>
+                    <li data-image="assets/images/talks/t190.jpg">
+                        Iván Loire
+                        <small>@ivanloire</small>
+                    </li>
+                    <li><div class="span9"><p>El modelo de desarrollo de aplicaciones web ha cambiado en los últimos años.</p><p>Necesitamos aplicaciones web rápidas, escalables y fácilmente testeables (código de cliente y de servidor)</p><p>Express.js nos provee de un framework para producir aplicaciones web absurdamente rápidas (en cuanto a ejecución en el servidor. Usa node.js)</p><p>Knockout.js nos ofrece un mecanismo de vista-modelo para hacer que nuestras aplicaciones pidan al servidor sólamente los datos justos (siempre de manera asíncrona) y podamos enlazar esos datos a nuestra página de una manera muy potente y cómoda.</p><p>Zombie.js nos da un entorno de pruebas ""full-stack"", es decir, podemos testear nuestra aplicación desde la parte de cliente hasta el servidor, como si estuviésemos sentados realizando las pruebas en el navegador.</p><p>¿Juntamos los 3?</p></div></li>                    
+                </ul>
+            </div>
+        </article>
+    </section>
+    
+    
+    <section id="t_XXX" class="talk-detail">
+        <header data-title="Track XXX: XXX-XXX">
+            <a href="#back" data-target="section" data-icon="left" class="button onleft rounded"></a>
+        </header>
+        <article id="tt_XXX" class="list scrollable">
+            <div class="indented">
+                <ul>     
+                    <li class="tip dark">Creando Web Apps con express.js, zombie.js y knockout.js</li>
+                    <li><small><span class="bubble magenta">ES</span> <span class="bubble red">Advanced</span> <span class="bubble blue">Javascript</span></small></li>
+                    <li data-image="assets/images/talks/t190.jpg">
+                        Iván Loire
+                        <small>@ivanloire</small>
+                    </li>
+                    <li><div class="span9"><p>El modelo de desarrollo de aplicaciones web ha cambiado en los últimos años.</p><p>Necesitamos aplicaciones web rápidas, escalables y fácilmente testeables (código de cliente y de servidor)</p><p>Express.js nos provee de un framework para producir aplicaciones web absurdamente rápidas (en cuanto a ejecución en el servidor. Usa node.js)</p><p>Knockout.js nos ofrece un mecanismo de vista-modelo para hacer que nuestras aplicaciones pidan al servidor sólamente los datos justos (siempre de manera asíncrona) y podamos enlazar esos datos a nuestra página de una manera muy potente y cómoda.</p><p>Zombie.js nos da un entorno de pruebas ""full-stack"", es decir, podemos testear nuestra aplicación desde la parte de cliente hasta el servidor, como si estuviésemos sentados realizando las pruebas en el navegador.</p><p>¿Juntamos los 3?</p></div></li>                    
+                </ul>
+            </div>
+        </article>
+    </section>
+    
+    
+    <section id="t_XXX" class="talk-detail">
+        <header data-title="Track XXX: XXX-XXX">
+            <a href="#back" data-target="section" data-icon="left" class="button onleft rounded"></a>
+        </header>
+        <article id="tt_XXX" class="list scrollable">
+            <div class="indented">
+                <ul>     
+                    <li class="tip dark">Creando Web Apps con express.js, zombie.js y knockout.js</li>
+                    <li><small><span class="bubble magenta">ES</span> <span class="bubble red">Advanced</span> <span class="bubble blue">Javascript</span></small></li>
+                    <li data-image="assets/images/talks/t190.jpg">
+                        Iván Loire
+                        <small>@ivanloire</small>
+                    </li>
+                    <li><div class="span9"><p>El modelo de desarrollo de aplicaciones web ha cambiado en los últimos años.</p><p>Necesitamos aplicaciones web rápidas, escalables y fácilmente testeables (código de cliente y de servidor)</p><p>Express.js nos provee de un framework para producir aplicaciones web absurdamente rápidas (en cuanto a ejecución en el servidor. Usa node.js)</p><p>Knockout.js nos ofrece un mecanismo de vista-modelo para hacer que nuestras aplicaciones pidan al servidor sólamente los datos justos (siempre de manera asíncrona) y podamos enlazar esos datos a nuestra página de una manera muy potente y cómoda.</p><p>Zombie.js nos da un entorno de pruebas ""full-stack"", es decir, podemos testear nuestra aplicación desde la parte de cliente hasta el servidor, como si estuviésemos sentados realizando las pruebas en el navegador.</p><p>¿Juntamos los 3?</p></div></li>                    
+                </ul>
+            </div>
+        </article>
+    </section>
+    
+    <section id="t_XXX" class="talk-detail">
+        <header data-title="Track XXX: XXX-XXX">
+            <a href="#back" data-target="section" data-icon="left" class="button onleft rounded"></a>
+        </header>
+        <article id="tt_XXX" class="list scrollable">
+            <div class="indented">
+                <ul>     
+                    <li class="tip dark">Creando Web Apps con express.js, zombie.js y knockout.js</li>
+                    <li><small><span class="bubble magenta">ES</span> <span class="bubble red">Advanced</span> <span class="bubble blue">Javascript</span></small></li>
+                    <li data-image="assets/images/talks/t190.jpg">
+                        Iván Loire
+                        <small>@ivanloire</small>
+                    </li>
+                    <li><div class="span9"><p>El modelo de desarrollo de aplicaciones web ha cambiado en los últimos años.</p><p>Necesitamos aplicaciones web rápidas, escalables y fácilmente testeables (código de cliente y de servidor)</p><p>Express.js nos provee de un framework para producir aplicaciones web absurdamente rápidas (en cuanto a ejecución en el servidor. Usa node.js)</p><p>Knockout.js nos ofrece un mecanismo de vista-modelo para hacer que nuestras aplicaciones pidan al servidor sólamente los datos justos (siempre de manera asíncrona) y podamos enlazar esos datos a nuestra página de una manera muy potente y cómoda.</p><p>Zombie.js nos da un entorno de pruebas ""full-stack"", es decir, podemos testear nuestra aplicación desde la parte de cliente hasta el servidor, como si estuviésemos sentados realizando las pruebas en el navegador.</p><p>¿Juntamos los 3?</p></div></li>                    
+                </ul>
+            </div>
+        </article>
+    </section>
+                    
+                        
     <!-- LungoJS (Production mode) -->
     <script src="lungo.js/lungo-1.1.2.packed.js"></script>
     <!-- LungoJS - Sandbox App -->
