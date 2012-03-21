@@ -34,7 +34,7 @@
 
         <footer class="toolbar">
             <nav>
-                <a href="#schedule" class="current" data-target="article" data-icon="calendar" data-title="¡La vamos a liar parda!">Agenda</a>
+                <a href="#schedule" data-target="article" data-icon="calendar" data-title="¡La vamos a liar parda!">Agenda</a>
                 <a href="#talks-list" data-target="article" data-icon="group" data-title="Charlas">Charlas</a> 
                 <a href="#location" data-target="article" data-icon="map" data-title="¿Cómo llegar!">Cómo llegar</a>
                 <a href="#credits" data-target="article" data-icon="info" data-title="Créditos">Créditos</a>
@@ -50,11 +50,25 @@
             
         </aside>
 
+        <article id="splash" class="list scrollable">
+            <div style="
+                    width: 100%;
+                    height: 100%;
+                    background-color: #9bc7d4;
+                    text-align: center;
+                    vertical-align: text-top;
+                    padding-top: 20px;
+                ">
+                <img src="assets/images/logo.jpg" alt="Logo codemotion" style="width: 100%;">
+            </div>
+            
+        
+        </article>
+        
         <article id="schedule" class="list scrollable">
             <ul>
-                <li class="tip dark">Track 1:</li>
-                <li data-image="http://codemotion.es/img/t007.jpg" data-talk-id="1">
-                    <div class="onright bubble red" data-icon="clock">9.30-10.15</div>
+                <li data-image="http://codemotion.es/img/t007.jpg">
+                        <div class="onright bubble red" data-icon="clock">9.30-10.15</div>
                         Creando Web Apps con express.js, zombie.js y knockout.js
                         <small>ES, ADVANCED, JAVASCRIPT</small>
                 </li>
@@ -316,11 +330,8 @@
                     Carga automática de constantes en Ruby on Rails
                     <small>ES, ADVANCED, RUBY</small>
                 </li>
-                
             </ul>
         </article>
-        
-        
         <article id="talks-list" class="list">
             <ul>
                 <li data-image="http://codemotion.es/img/t3.jpg">
@@ -343,45 +354,29 @@
             </ul>
         </article>
         
-        <article id="sponsors" class="list scrollable">
-            <ul>
-                <li data-image="http://codemotion.es/img/logoracle-140.png">
-                    <div class="onright bubble red" data-icon="star">Platinum</div>
-                    Oracle
-                    <small>Oracle Corporation desarrolla soluciones de hardware y software para trabajar conjuntamente en la nube y centros de datos...</small>
-                </li>
-                <li data-image="http://codemotion.es/img/microsoft-140.png">
-                    <div class="onright bubble red" data-icon="star">Platinum</div>
-                    Microsoft
-                    <small>Los desarrolladores están cada vez más preparados y motivados para seguir mejorando día a día. Codemotion es una prueba de este compromiso.</small>
-                </li>
-                <li data-image="http://codemotion.es/img/medianet-140.png">
-                    <div class="onright bubble red" data-icon="star">Platinum</div>
-                    MediaNet Software
-                    <small>MediaNet Software es una empresa española fundada en 1995 especializada en el desarrollo de software. </small>
-                </li>
-                <li data-image="http://codemotion.es/img/logoAtlassian-140.png">
-                    <div class="onright bubble yellow" data-icon="star">Gold</div>
-                    Atlassian
-                    <small>
-Con el objetivo de hacer más fácil la vida a los desarrolladores, Atlassian es una compañía creada por programadores para programadores y formada por gente como nosotros</small>
-                </li>
-                <li data-image="http://codemotion.es/img/bq-140.png">
-                    <div class="onright bubble yellow" data-icon="star">Gold</div>
-                    bq
-                    <small>bq es una empresa española dedicada al diseño, fabricación y distribución de e-readers y tablets PC. Es una de las marcas líder en lectores de libros electrónicos en España y el desarrollador</small>
-                </li>
-                <li data-image="http://codemotion.es/img/vilt-140.png">
-                    <div class="onright bubble yellow" data-icon="star">Gold</div>
-                    Vilt
-                    <small>VILT is an Iberian IT company, founded in 2002, specialized in Enterprise Content Management (ECM) that has been delivering value around the world</small>
-                </li>
-                <li data-image="http://codemotion.es/img/tuenti-130.png">
-                    <div class="onright bubble grey" data-icon="star">Silver</div>
-                    Tuenti
-                    <small>Tuenti is a social application and our mission is to improve communication and information sharing between people who know each other.</small>
-                </li>
-            </ul>
+        <article id="sponsors" class="scrollable">
+            <div class="indented">
+                <div class="bubble red anchor" >Platinum</div>
+                <p><img src="assets/images/patrocinadores/oracle.png" alt="Logo Oracle"></p>
+                <p><img src="assets/images/patrocinadores/microsoft.png" alt="Logo Oracle"></p>
+                <p><img src="assets/images/patrocinadores/medianet.png" alt="Logo Oracle"></p>
+                
+                <div class="bubble yellow anchor" >Gold</div>
+                <p><img src="assets/images/patrocinadores/atlassian.png" alt="Logo Oracle"></p>
+                <p><img src="assets/images/patrocinadores/bq.png" alt="Logo Oracle" ></p>
+                <p><img src="assets/images/patrocinadores/vilt.png" alt="Logo Oracle"></p>
+                <p><img src="assets/images/patrocinadores/coritel.png" alt="Logo Oracle"></p>
+                <p><img src="assets/images/patrocinadores/extrema.png" alt="Logo Oracle"></p>
+                <p><img src="assets/images/patrocinadores/ibm.png" alt="Logo Oracle"></p>
+                
+                <div class="bubble blue anchor" >Silver</div>
+                <p><img src="assets/images/patrocinadores/tuenti.png" alt="Logo Oracle"></p>
+                <p><img src="assets/images/patrocinadores/paradigma.png" alt="Logo Oracle"></p>
+                <p><img src="assets/images/patrocinadores/amazon.png" alt="Logo Oracle"></p>
+                <p><img src="assets/images/patrocinadores/tid.jpg" alt="Logo Oracle"></p>
+                <p><img src="assets/images/patrocinadores/mozilla.png" alt="Logo Oracle"></p>
+                
+            </div>
         </article>
         <article id="location" class="scrollable">
             <div class="indented">
@@ -424,17 +419,38 @@ Si vienes de la M-30 tendrás que tomar la salida hacia Conde de Casal, y desde 
             </div>
         </article>
         
-        <article id="credits" class="list">
+        <article id="credits" class="list scrollable">
             <div class="indented rounded">
                 <ul>
-                    <li class="anchor">Esta aplicación ha sido desarrollada por:</li>
-                    <li data-image="http://a1.twimg.com/profile_images/1673292691/Yo_en_ByN_cuadrada.jpg">
+                    <li class="anchor" data-icon="group">Esta aplicación ha sido desarrollada por:</li>
+                    <li data-image="assets/images/credits/hhkaos.jpg">
                         Raúl Jiménez Ortega
                         <small>@hhkaos - Frontend Developer</small>
                     </li>
-                    <li class="tip dark">Más información:</li>
-                    <li><strong>Versión</strong> 1.1</li>
-                    <li><strong>Última actualización:</strong> 28 Febrero 2012</li>
+                    <li class="tip dark">Con la colaboración de:</li>
+                    <li data-image="assets/images/credits/rcabamo.jpg">
+                        Ricardo Caballero Moral
+                        <small>@rcabamo - Mobile Developer</small>
+                    </li>
+                    <li data-image="assets/images/credits/jneight.jpg">
+                        Javier Cordero Martínez
+                        <small>@jneight - Backend Developer</small>
+                    </li>
+                    <li data-image="assets/images/credits/try_publizistik.jpg">
+                        Patricia Carmona Pulido
+                        <small>@Try_Publizistik - Marketer</small>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="anchor" data-icon="star">Proyectos:</li>
+                    <li data-image="assets/images/credits/georemindme.png">
+                        GeoRemindMe!
+                        <small>Experiencias+Recordatorios geolocalizados</small>
+                    </li>
+                    <li data-image="assets/images/credits/pidecurso.png">
+                        PideCurso
+                        <small>Solicitudes colectivas de cursos</small>
+                    </li>
                 </ul>
             </div>
         </article>
